@@ -23,7 +23,7 @@ weatherForm.addEventListener('submit',(e)=>{
 			console.log('vul ase')
 			document.getElementById('msg-1').innerHTML='vul ase';
 		}else{
-			document.getElementById('msg-2').innerHTML=ata.forecast.temperature+data.location;
+			document.getElementById('msg-2').innerHTML=data.forecast.temperature+data.location;
             console.log(data.forecast.temperature)
             console.log(data.location)
 		} 
